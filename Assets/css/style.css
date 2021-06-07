@@ -1,5 +1,5 @@
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -22,3 +22,45 @@ body{
 #navbarSupportedContent{
     margin-right: 110px;
 }
+main{
+    background-color: black;
+    min-height: 500px;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    
+}
+hr{
+    color:#007bff;
+    width: 95%;
+    size: 4px;
+    z-index: 2;
+}
+i{
+    color:white;
+    list-style: none;
+    
+
+    
+  }
+  .col{
+      text-align: center;
+  }
+  .decolumna{
+      text-align: justify;
+  }
+  p{
+      text-align: justify;
+      color: white;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .rect{
+      width: 100%;
+      height: 50px;
+     background-color: blue;
+     
+  }
