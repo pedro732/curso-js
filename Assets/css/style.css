@@ -24,7 +24,7 @@ body{
 }
 main{
     background-color: black;
-    min-height: 2000px;
+    
 }
 h2{
     text-align: center;
@@ -38,7 +38,7 @@ hr{
     size: 4px;
     z-index: 2;
 }
-i{
+.favicon{
     color:white;
     list-style: none;
     
@@ -82,4 +82,44 @@ i{
     .contacto{
         margin-top: 50px;
         padding-top: 70px;
+        margin-bottom: 50px;
     }
+    .pie{
+        background-color: cornflowerblue;
+        height: 50px;
+        margin-top: 10pxs;
+        
+    }
+    li{
+        list-style: none;
+    }
+    i{
+        list-style: none;
+    }
+    .fa-github{
+        color: #007bff;
+    }
+    .fa-linkedin{
+        color:#007bff ;
+    }
+    .fa-twitter-square{
+        color:#007bff ;
+    }
+    .fa-facebook{
+        color:#007bff ;
+    }
+    .final{
+        display: flex;
+        justify-content: space-between;
+    }
+    .finalizacion li{
+        display: inline;
+        padding: 0 5px 0 5px;
+    }
+    .finalizacion{
+        margin-top: 12px;
+    }
+    .final p{
+        margin-top: 12px;
+    }
+   
