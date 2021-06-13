@@ -19,9 +19,10 @@
 </head>
 
 <body>
+ <!--Se inserta un contenedor para que el contenido tenga ciertos márgenes--> 
   <div class="container ">
     <header>
-      
+      <!---Inserción de la barra de navegación , extraida de bootstrap-->
        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top  " >
       <a class="navbar-brand text-white" href="#"><img src="Assets/img/viajes.svg" class="logo">Viajes  Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,6 +31,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!--Inserción de botones de navegación por medio de una lista desordenada-->
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item active ">
             <a class="nav-link  text-white" href="#">Inicio<span class="sr-only ">(current)</span></a>
@@ -52,6 +54,7 @@
   
  
   </div>
+  <!---Inserción de un carrusel de imágenes-->
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -76,6 +79,7 @@
     </div>
   </header>
   <main>
+    <!--Inicio de sección "quienes somos"-->
   <section>
  <h2 id="quienessomos">¿Quienes somos? </h2> 
  <hr color="blue" >
@@ -103,6 +107,7 @@
  
 
   </section>
+  <!--Inicio de sección de tarjetas bootstrap-->
 <section class="destacados">
   <h2 id="destacados">Destacados </h2> 
  <hr color="blue" >
@@ -142,6 +147,7 @@
     </div></div>
   </div>
 </section>
+<!---Inicio de la sección de contactos de formtype-->
 <section class="contacto">
   <div class="container">
   <h2 id="contacto">Contacto </h2> 
@@ -149,6 +155,7 @@
  <div class="typeform-widget" data-url="https://form.typeform.com/to/ZXT6S13l?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </div>
 </section>
+<!--Inicio de pie de página-->
 <footer>
   <div class="pie  ">
     <div class="container  final">
@@ -164,7 +171,7 @@
 </div>
  
 </footer>
-<!-- Modal -->
+
 <!-- Modal -->
 <div class="modal fade in" id="myModal" role="dialog" style="display: block; padding-right: 16px;"><div class="modal-dialog"><!-- Modal content-->
   <div class="modal-content"><div class="modal-header"><button class="close" data-dismiss="modal" type="button">×</button>
