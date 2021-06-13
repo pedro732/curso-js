@@ -24,7 +24,7 @@ body{
 }
 main{
     background-color: black;
-    min-height: 500px;
+    min-height: 2000px;
 }
 h2{
     text-align: center;
@@ -63,4 +63,23 @@ i{
       height: 50px;
      background-color: blue;
      
-  }
+      }
+
+    .destacados{
+        margin-top: 50px;
+        padding-top: 70px;
+    }
+    .tarjeta{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .card-img-top{
+        height: 169px;
+    }
+    div.card-body{
+        height: 244px;
+    }
+    .contacto{
+        margin-top: 50px;
+        padding-top: 70px;
+    }
