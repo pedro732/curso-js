@@ -35,14 +35,14 @@
             <a class="nav-link  text-white" href="#">Inicio<span class="sr-only ">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#quienessomos">Quienes somos</a>
+            <a class="nav-link text-white" data-placement="right" data-toggle="mensaje" title="Es hora de que nos conozcas" href="#quienessomos">Quienes somos</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-white" href="#destacados" >Destacados</a>
+            <a class="nav-link text-white" data-placement="bottom" data-toggle="mensaje" title="Esta información es para ti" href="#destacados" >Destacados</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link  text-white" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
+            <a class="nav-link  text-white" data-placement="left" data-toggle="mensaje" title="Comunicate con nosotros"  href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
           </li>
         </ul>
 
@@ -183,6 +183,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+      <script>
+        $(document).ready(function(){
+            $('[data-toggle="mensaje"]').tooltip(); 
+        });
+        </script>
   
 </body>
 
